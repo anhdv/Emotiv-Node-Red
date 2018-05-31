@@ -8,6 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 ![alt text](https://www.emotiv.com/wp-content/uploads/2018/05/cortex-overview-diagram.png)
+
+Emotiv BCI Node-red requires Node-RED version 0.14 or more recent.
 You need to install the cortex and Emotiv BCI app
 https://emotiv.github.io/cortex-docs/#installing-cortex
 
@@ -54,25 +56,8 @@ On Windows:
 
 1.4 Go to http://127.0.0.1:1880/ Start playing
 
+## 
 
+## Features
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-
+See the [LICENSE.md](LICENSE.md) file for details of each node
