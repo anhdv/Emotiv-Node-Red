@@ -14,10 +14,10 @@ There are the details of each Emotiv Node.
 		Output: array of authorization token. Eg: [authToken]
 
 #### Node Properties
-		| Properties    | Type          | Mandatory |
-		| ------------- | ------------- | --------- |
-		| EmotivID      | String        | Yes       |
-		| Password      | String        | Yes       |
+| Properties    | Type          | Mandatory |
+| ------------- | ------------- | --------- |
+| EmotivID      | String        | Yes       |
+| Password      | String        | Yes       |
 
 ![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/a2.png)
 
@@ -33,9 +33,9 @@ There are the details of each Emotiv Node.
 		Output: array of authorization token and profile name. Eg: [authToken,profileName]
 
 #### Node Properties
-		| Properties    | Type          | Mandatory |
-		| ------------- | ------------- | --------- |
-		| Profile name  | String        | Yes       |
+| Properties    | Type          | Mandatory |
+| ------------- | ------------- | --------- |
+| Profile name  | String        | Yes       |
 
 ![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/b2.png)
 
@@ -51,10 +51,10 @@ There are the details of each Emotiv Node.
 		Output: Interger [0-100]
 
 #### Node Properties
-		| Properties    | Type          | Mandatory |
-		| ------------- | ------------- | --------- |
-		| Command       | String        | Yes       |
-		| Sensitivity   | Int           | No        |
+| Properties    | Type          | Mandatory |
+| ------------- | ------------- | --------- |
+| Command       | String        | Yes       |
+| Sensitivity   | Int           | No        |
 
 ![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/c2.png)
 
@@ -70,10 +70,10 @@ There are the details of each Emotiv Node.
 		Output: Interger [0-100]
 
 #### Node Properties
-		| Properties    | Type          | Mandatory |
-		| ------------- | ------------- | --------- |
-		| Action        | String        | Yes       |
-		| Sensitivity   | Int           | No        |
+| Properties    | Type          | Mandatory |
+| ------------- | ------------- | --------- |
+| Action        | String        | Yes       |
+| Sensitivity   | Int           | No        |
 
 ![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/d2.png)
 
@@ -89,9 +89,9 @@ There are the details of each Emotiv Node.
 		Output: Interger [0-100]
 
 #### Node Properties
-		| Properties    | Type          | Mandatory |
-		| ------------- | ------------- | --------- |
-		| Action        | String        | Yes       |
+| Properties    | Type          | Mandatory |
+| ------------- | ------------- | --------- |
+| Action        | String        | Yes       |
 
 ![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/e2.png)
 
@@ -107,9 +107,9 @@ There are the details of each Emotiv Node.
 		Output: Interger
 
 #### Node Properties
-		| Properties    | Type          | Mandatory |
-		| ------------- | ------------- | --------- |
-		| Band          | String        | Yes       |
+| Properties    | Type          | Mandatory |
+| ------------- | ------------- | --------- |
+| Band          | String        | Yes       |
 
 ![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/f2.png)
 
@@ -125,8 +125,8 @@ There are the details of each Emotiv Node.
 		Output: Interger
 
 #### Node Properties
-		| Properties    | Type          | Mandatory |
-		| ------------- | ------------- | --------- |
-		| Sensor        | String        | Yes       |
+| Properties    | Type          | Mandatory |
+| ------------- | ------------- | --------- |
+| Sensor        | String        | Yes       |
 
 ![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/g2.png)
