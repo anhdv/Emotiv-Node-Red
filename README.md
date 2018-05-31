@@ -60,4 +60,4 @@ On Windows:
 
 ## Features
 
-See the [Emotiv BCI Nodes.md](Emotiv BCI Nodes.md) file for details of each node
+See the [Emotiv BCI Nodes.md](EmotivBCINodes.md) file for details of each node
