@@ -60,4 +60,4 @@ On Windows:
 
 ## Features
 
-See the [LICENSE.md](LICENSE.md) file for details of each node
+See the [Emotiv BCI Nodes.md](Emotiv BCI Nodes.md) file for details of each node
