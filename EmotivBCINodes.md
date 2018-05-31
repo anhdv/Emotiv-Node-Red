@@ -7,7 +7,7 @@ There are the details of each Emotiv Node.
 ### Login node
 	This node is using for log in Emotiv account.
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/a1.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/a1.png)
 
 #### IO
 		Input: no need input
@@ -19,12 +19,12 @@ There are the details of each Emotiv Node.
 		| EmotivID      | String        | Yes       |
 		| Password      | String        | Yes       |
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/a2.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/a2.png)
 
 ### Profile Name node
 	This node will check the profile name is existed in list profile.
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/b1.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/b1.png)
 
 #### IO
 		Required input node: Login node
@@ -37,12 +37,12 @@ There are the details of each Emotiv Node.
 		| ------------- | ------------- | --------- |
 		| Profile name  | String        | Yes       |
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/b2.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/b2.png)
 
 ### Mental Commands node
 	This node will output value of trained mental command which is selected in node.
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/c1.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/c1.png)
 
 #### IO
 		Required input node: Profile Name node
@@ -56,12 +56,12 @@ There are the details of each Emotiv Node.
 		| Command       | String        | Yes       |
 		| Sensitivity   | Int           | No        |
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/c2.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/c2.png)
 
 ### Facial Expressions input node
 	This node will output value of trained facial expression which is selected in node.
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/d1.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/d1.png)
 
 #### IO
 		Required input node: Profile Name node
@@ -75,12 +75,12 @@ There are the details of each Emotiv Node.
 		| Action        | String        | Yes       |
 		| Sensitivity   | Int           | No        |
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/d2.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/d2.png)
 
 ### Performance Metric input node
 	This node will hook up emotions and cognitive states to particular outputs in node.
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/e1.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/e1.png)
 
 #### IO
 		Required input node: Login node
@@ -93,12 +93,12 @@ There are the details of each Emotiv Node.
 		| ------------- | ------------- | --------- |
 		| Action        | String        | Yes       |
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/e2.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/e2.png)
 
 ### Frequency Band input node
 	This node will hook up higher resolution mental states to particular outputs in node.
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/f1.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/f1.png)
 
 #### IO
 		Required input node: Login node
@@ -111,12 +111,12 @@ There are the details of each Emotiv Node.
 		| ------------- | ------------- | --------- |
 		| Band          | String        | Yes       |
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/f2.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/f2.png)
 
 ### Motion sensors input node
 	This node will hook up higher resolution mental states to particular outputs in node.
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/g1.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/g1.png)
 
 #### IO
 		Required input node: Login node
@@ -129,4 +129,4 @@ There are the details of each Emotiv Node.
 		| ------------- | ------------- | --------- |
 		| Sensor        | String        | Yes       |
 
-	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/g2.png)
+![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/g2.png)
