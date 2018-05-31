@@ -82,13 +82,13 @@ There are the details of each Emotiv Node.
 
 	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/e1.png)
 
-	#### IO
+#### 	IO
 		Required input node: Login node
 
 		Input: array of authorization token. Eg: [authToken]
 		Output: Interger [0-100]
 
-	#### Node Properties
+#### 	Node Properties
 		| Properties    | Type          | Mandatory |
 		| ------------- | ------------- | --------- |
 		| Action        | String        | Yes       |
