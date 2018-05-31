@@ -9,11 +9,11 @@ There are the details of each Emotiv Node.
 
 	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/a1.png)
 
-	#### IO
+#### IO
 		Input: no need input
 		Output: array of authorization token. Eg: [authToken]
 
-	#### Node Properties
+#### Node Properties
 		| Properties    | Type          | Mandatory |
 		| ------------- | ------------- | --------- |
 		| EmotivID      | String        | Yes       |
@@ -26,13 +26,13 @@ There are the details of each Emotiv Node.
 
 	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/b1.png)
 
-	#### IO
+#### IO
 		Required input node: Login node
 
 		Input: array of authorization token. Eg: [authToken]
 		Output: array of authorization token and profile name. Eg: [authToken,profileName]
 
-	#### Node Properties
+#### Node Properties
 		| Properties    | Type          | Mandatory |
 		| ------------- | ------------- | --------- |
 		| Profile name  | String        | Yes       |
@@ -44,13 +44,13 @@ There are the details of each Emotiv Node.
 
 	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/c1.png)
 
-	#### IO
+#### IO
 		Required input node: Profile Name node
 
 		Input: array of authorization token and profile name. Eg: [authToken,profileName]
 		Output: Interger [0-100]
 
-	#### Node Properties
+#### Node Properties
 		| Properties    | Type          | Mandatory |
 		| ------------- | ------------- | --------- |
 		| Command       | String        | Yes       |
@@ -63,13 +63,13 @@ There are the details of each Emotiv Node.
 
 	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/d1.png)
 
-	#### IO
+#### IO
 		Required input node: Profile Name node
 
 		Input: array of authorization token and profile name. Eg: [authToken,profileName]
 		Output: Interger [0-100]
 
-	#### Node Properties
+#### Node Properties
 		| Properties    | Type          | Mandatory |
 		| ------------- | ------------- | --------- |
 		| Action        | String        | Yes       |
@@ -82,13 +82,13 @@ There are the details of each Emotiv Node.
 
 	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/e1.png)
 
-#### 	IO
+#### IO
 		Required input node: Login node
 
 		Input: array of authorization token. Eg: [authToken]
 		Output: Interger [0-100]
 
-#### 	Node Properties
+#### Node Properties
 		| Properties    | Type          | Mandatory |
 		| ------------- | ------------- | --------- |
 		| Action        | String        | Yes       |
@@ -100,13 +100,13 @@ There are the details of each Emotiv Node.
 
 	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/f1.png)
 
-	#### IO
+#### IO
 		Required input node: Login node
 
 		Input: array of authorization token. Eg: [authToken]
 		Output: Interger
 
-	#### Node Properties
+#### Node Properties
 		| Properties    | Type          | Mandatory |
 		| ------------- | ------------- | --------- |
 		| Band          | String        | Yes       |
@@ -118,13 +118,13 @@ There are the details of each Emotiv Node.
 
 	![alt text](https://github.com/anhdv/Emotiv-Node-Red/blob/master/Image/g1.png)
 
-	#### IO
+#### IO
 		Required input node: Login node
 
 		Input: array of authorization token. Eg: [authToken]
 		Output: Interger
 
-	#### Node Properties
+#### Node Properties
 		| Properties    | Type          | Mandatory |
 		| ------------- | ------------- | --------- |
 		| Sensor        | String        | Yes       |
