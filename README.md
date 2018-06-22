@@ -30,7 +30,7 @@ Emotiv BCI Node-red requires Node-RED version 0.14 or more later. You also need 
 	sudo npm install -g --unsafe-perm node-red
 ```
 
-On Windows:
+	On Windows:
 
 ```
 	npm install -g --unsafe-perm node-red
